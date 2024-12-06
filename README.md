@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/bc59486f-ec71-494a-845e-8897a6f6649e)
 
 # ETL load PostgresSQL Specific Excel Value Using Talend Open Studio For Big Data
 Using Iterate Flow, one of component in Talend, filter data from specific columns in excel list and load it to PostgreSQL Database
