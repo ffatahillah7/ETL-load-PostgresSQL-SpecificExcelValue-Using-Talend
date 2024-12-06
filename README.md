@@ -3,7 +3,7 @@
 # ETL load PostgresSQL Specific Excel Value Using Talend Open Studio For Big Data
 Using Iterate Flow, one of component in Talend, filter data from specific columns in excel list and load it to PostgreSQL Database
 
-The purpose of this project is to extract dataset from csv online using Talend Open Studio, transform with several basic technique using tmap component on Talend. The next one is storing to big query data lake. From data lake table, filter exclude null or No Data, filter just all teams from Pacific Division. Finnaly, Storing into Big Query Data Warehouse for Pacific Division Teams.
+The purpose of this project is to filter data from excel list file. Imagine we have a request in excel file contains of several of name of nba players and need to know about whole entire data information on PostgresSQL Database
 
 Download Dataset file : https://media.geeksforgeeks.org/wp-content/uploads/nba.csv
 
@@ -33,3 +33,6 @@ Download Dataset file : https://media.geeksforgeeks.org/wp-content/uploads/nba.c
     order by nba_player.name asc"
     
 8.  Adding tDBOutput. Choose PostgreSQL as Database  and Config the credentials needed such as host,database,user,password,table_name. Choose create table if does not exists.
+
+![image](https://github.com/user-attachments/assets/de296fcb-82aa-48ee-8d4e-97ea075cd359)
+
